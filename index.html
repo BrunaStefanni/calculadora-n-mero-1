@@ -14,6 +14,7 @@
             height: 100vh;
             color: white;
             font-family: fantasy;
+            text-align: center;
         }
         .calculadora {
             position: absolute;
@@ -21,7 +22,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            border-radius: 20px;
+            border-radius: 10px;
             padding: 6px;
         }
         .botao {
@@ -29,13 +30,26 @@
             height: 50px;
             font-size: 30px;
             cursor: pointer;
-            background-color: rgb(228, 73, 45);
+            background-color: rgba(146, 15, 57, 0.8);
             border: none;
+            border-radius: 5px;
+            margin: 1px;
             color: white;
             font-family: fantasy;
         }
         .botao:hover {
-            background-color: rgb(84, 54, 84);
+            background-color: rgb(158, 105, 158);
+        }
+        #resultado {
+            background-color: rgba(255, 255, 255, 0.8);
+            width: 207px;
+            height: 60px;
+            margin-bottom: 5px;
+            font-size: 50px;
+            color: rgb(82, 8, 31);
+            text-align: right;
+            padding-right: 10px;
+            border-radius: 8px;
         }
     </style>
 </head>
@@ -69,15 +83,20 @@
                     <td><button class="botao">1</button></td>
                     <td><button class="botao">2</button></td>
                     <td><button class="botao">3</button></td>
-                    <td rowspan="2"><button class="botao">=</button></td>
+                    <td rowspan="2"><button class="botao" style="height: 103px;">=</button></td>
                 </tr>
                 <tr>
-                    <td colspan="2"><button class="botao">0</button></td>
+                    <td colspan="2"><button class="botao" style="width: 103px;">0</button></td>
                     <td><button class="botao">.</button></td>
                 </tr>
                 </tr>
             </table>
         </div>
     </div>
+    <script>
+        <Function insert(num) {
+            document.getElementById('resultado').innerHTML += num;
+        }
+    </script>
 </body>
 </html>
