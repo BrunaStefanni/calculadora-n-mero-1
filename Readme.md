@@ -3,8 +3,7 @@
 ### Objetivo: Praticar o uso de algumas linguagens de programação e poder utilizar o Git, GitHub e Visual Code.
 
 
-## Demonstração
-
+### Demonstração
 ![Imagem da calculadora](imagens/Calculadora.jpg)
 
 
