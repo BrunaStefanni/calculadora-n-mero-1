@@ -3,6 +3,11 @@
 ### Objetivo: Praticar o uso de algumas linguagens de programação e poder utilizar o Git, GitHub e Visual Code.
 
 
+## Demonstração
+
+![Imagem da calculadora](imagens/Calculadora.jpg)
+
+
 ## Sobre o projeto
 
 Minha primeira calculadora desenvolvida com HTML, CSS e JavaScript. Neste projeto pratiquei criação de interfaces, estilização com CSS, lógica de programação em JavaScript, funções, eventos de clique e manipulação de elementos da página. Também aprendi a utilizar Git e GitHub para controlar versões e publicar minhas alterações.
