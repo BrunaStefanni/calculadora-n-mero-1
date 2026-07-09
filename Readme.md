@@ -27,3 +27,4 @@ Até o momento foram criados 5 commits, parei na parte de estruturação de tama
 3. Descrição do trabalho
 4. Estrutura com botões da calculadora
 5. Atualização de cores e estilo com style 1
+6. Alterações de cores + Início do Java Script
