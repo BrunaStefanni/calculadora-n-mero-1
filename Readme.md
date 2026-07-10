@@ -36,7 +36,7 @@ Habilidades que foram desenvolvidas e praticadas com esse projeto:
 
 
 ## Resumo em Commit's
-Até o momento foram criados 9 commits, calculadora com funções ativadas - 09/07/2026 22h48
+Até o momento foram criados 10 commits, calculadora com funções ativadas - 10/07/2026 12h15
 
 1. Commit inicial
 2. Estrutura de pastas e arquivos
@@ -47,3 +47,6 @@ Até o momento foram criados 9 commits, calculadora com funções ativadas - 09/
 7. Funções JavaScript prontas
 8. Atualiza README
 9. Finaliza projeto
+10. Correção de Erros 1
+
+obs: Na correção de erros 1 foram acrescidos alguns códigos para limitar a quantidade de caracteres dentro da caixa resultado.
